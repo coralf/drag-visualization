@@ -4,10 +4,8 @@
   "description": "",
   "private": "true",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "build1": "npx webpack --config webpack.config.js",
-    "build": "webpack",
-    "start": "webpack-dev-server --open --watch"
+    "start": "webpack-dev-server --open --watch",
+    "test": "jest"
   },
   "repository": {
     "type": "git",
@@ -21,22 +19,40 @@
   },
   "homepage": "https://github.com/coralf/drag-visualization#readme",
   "devDependencies": {
+    "@babel/plugin-proposal-class-properties": "^7.10.4",
+    "@babel/plugin-proposal-decorators": "^7.10.5",
+    "css-loader": "^4.2.1",
+    "file-loader": "^6.0.0",
     "html-webpack-plugin": "^4.3.0",
-    "ts-loader": "^8.0.1",
+    "jest": "^26.2.2",
+    "style-loader": "^1.2.1",
+    "ts-loader": "^8.0.2",
     "typescript": "^3.9.7",
-    "webpack": "^4.43.0",
+    "webpack": "^4.44.1",
     "webpack-cli": "^3.3.12",
     "webpack-dev-server": "^3.11.0"
   },
   "dependencies": {
+    "@babel/core": "^7.11.1",
+    "@babel/preset-env": "^7.11.0",
+    "@babel/preset-typescript": "^7.10.4",
     "@types/html-webpack-plugin": "^3.2.3",
     "@types/lodash": "^4.14.158",
-    "@types/react": "^16.9.43",
+    "@types/react": "^16.9.44",
+    "@types/react-dnd": "^3.0.2",
+    "@types/react-dnd-html5-backend": "^3.0.2",
     "@types/react-dom": "^16.9.8",
     "@types/react-router-dom": "^5.1.5",
+    "@types/uuid": "^8.0.1",
+    "babel-jest": "^26.2.2",
     "lodash": "^4.17.19",
+    "mobx": "^5.15.4",
+    "mobx-react": "^6.2.5",
     "react": "^16.13.1",
+    "react-dnd": "^11.1.3",
+    "react-dnd-html5-backend": "^11.1.3",
     "react-dom": "^16.13.1",
-    "react-router-dom": "^5.2.0"
+    "react-router-dom": "^5.2.0",
+    "uuid": "^8.3.0"
   }
 }

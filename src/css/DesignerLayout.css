@@ -1,0 +1,70 @@
+.designer-layout {
+  position  : relative;
+  background: #5e6472;
+  width     : 100vw;
+  height    : 100vh;
+}
+
+.designer-plane {
+  position   : absolute;
+  box-shadow : 5px 5px 24px #000a;
+  width      : 90rem;
+  height     : 50rem;
+  top        : 50%;
+  margin-top : -25rem;
+  left       : 50%;
+  margin-left: -45rem;
+}
+
+.drag-plane {
+  position  : absolute;
+  min-width : 10rem;
+  height    : 100vh;
+  overflow-y: scroll;
+  box-shadow: 5px 5px 24px #000a;
+  box-sizing: border-box;
+  z-index   : 1;
+}
+
+.properties-plane {
+  position  : absolute;
+  min-width : 10rem;
+  height    : 100vh;
+  overflow-y: scroll;
+  box-shadow: 5px 5px 24px #000a;
+  right     : 0;
+}
+
+.plane-basic-color {
+  background-color: #ffffff;
+}
+
+
+@media screen and (min-width:75rem) {
+  .designer-plane {
+    width      : 60rem;
+    height     : 40rem;
+    margin-top : -20rem;
+    margin-left: -30rem;
+  }
+}
+
+@media screen and (min-width:100rem) {
+  .designer-plane {
+    width      : 80rem;
+    height     : 46rem;
+    margin-top : -23rem;
+    margin-left: -40rem;
+  }
+}
+
+
+
+@media screen and (min-width:125rem) {
+  .designer-plane {
+    height     : 50rem;
+    width      : 90rem;
+    margin-top : -25rem;
+    margin-left: -45rem;
+  }
+}
