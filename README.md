@@ -6,7 +6,7 @@
 
 - [Install](#install)
 - [Usage](#usage)
-	- [Use bash](#Use bash)
+	- [Use bash](#use-bash)
 
 ## Install
 
